@@ -1,0 +1,21 @@
+FOR LINUX/MACOS
+Creating a Virtual Environment
+$ python3 -m venv venv
+
+Activating Virtual Environment
+$ source venv/bin/activate
+
+Deactivate Virtual Environment
+$ deactivate
+
+Installing required packages listed on requirements.txt
+$ pip install -r requirements.txt
+
+Common Flask Terminal Commands
+$ export FLASK_APP=app
+$ export FLASK_ENV=development
+$ export FLASK_DEBUG=True
+$ flask run
+$ flask shell
+$ flask db init
+$ flask db migrate
